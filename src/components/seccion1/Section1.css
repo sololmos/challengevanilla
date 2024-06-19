@@ -1,0 +1,6 @@
+.section1-cont{
+    display: flex;
+    max-width: 100vh;
+    height: 570px;
+    background-color: white;
+}
