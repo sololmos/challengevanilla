@@ -1,6 +1,52 @@
-.section1-cont{
-    display: flex;
+/* .section1-cont{
+
+  
+    
     max-width: 100vh;
     height: 570px;
     background-color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+.cards{
+    
+    display: flex;
+    flex-direction: row;
+    
+    width: 1040px;
+    height: 369px;
+
+
+} */
+
+
+.section1-cont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    padding: 30px;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; 
+    justify-content: center; 
+    gap: 20px; 
+    margin: 30px;
+    padding: 10px;
+}
+
+
+@media (max-width: 768px) {
+    .cards {
+        flex-direction: column; 
+        align-items: center; 
+        margin: 10px 40px;
+        padding: 0 30px;
+    }
 }
