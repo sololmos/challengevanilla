@@ -4,6 +4,9 @@
 
 Soy María Sol Olmos y estoy emocionada de postularme al cargo de Desarrolladora Frontend en Vanilla Diseño. Agradezco la oportunidad de participar en esta prueba técnica para demostrar mis habilidades y conocer mejor mi forma de trabajar.
 
+## Deploy en Vercel
+--> https://challengevanilla.vercel.app/
+
 ## Descripción del Proyecto
 
 Esta prueba consiste en convertir un diseño proporcionado en Figma en una página web funcional utilizando React y CSS, es un diseño responsive que se adapta a diferentes dispositivos.
