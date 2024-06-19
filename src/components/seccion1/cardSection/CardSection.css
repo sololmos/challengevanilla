@@ -3,14 +3,11 @@
     flex-direction: column;
     width: 300px;
     height: 369px;
-   
     border-radius: 20px;
-   
     box-shadow: 0px 4px 14px 0px #00000040;
     justify-content: center;
     align-items: center;
-   margin: 20px ;
-
+    margin: 20px;
 
 }
 
@@ -19,7 +16,6 @@
 }
 
 .card-title {
-
     color: #FF93F4;
     font-size: 40px;
     font-weight: 800;
