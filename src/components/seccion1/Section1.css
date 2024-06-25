@@ -7,6 +7,7 @@
     padding: 30px;
     box-sizing: border-box;
     width: 100%;
+    
 }
 
 .cards {
@@ -30,27 +31,36 @@
 
 .media-elipse {
     position: absolute;
-    top: -200px; /* Ajusta estas coordenadas según tu diseño */
-    right: 0; /* Ajusta estas coordenadas según tu diseño */
-    overflow: hidden;
-    
-    /* z-index: 10; */
+    top: -200px; 
+    right: 0; 
+    overflow: hidden;    
     
 }
 
 .cuarto-elipse {
     position: absolute;
-    bottom: 0px; /* Ajusta estas coordenadas según tu diseño */
-    left: 0px; /* Ajusta estas coordenadas según tu diseño */
+    bottom: 0px; 
+    left: 0px; 
    
 }
 
 
 @media (max-width: 768px) {
+   
     .cards {
         flex-direction: column;
         align-items: center;
         margin: 10px 40px;
         padding: 0 30px;
     }
+    .media-elipse {
+       right: -130px;
+       scale: 0.8;
+       
+    }
+    .elipses{
+        z-index: 3;
+        overflow: hidden;
+    }
+
 }

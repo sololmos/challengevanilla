@@ -1,4 +1,4 @@
-//import "./App.css";
+
 import Intro from "./components/intro/Intro.jsx";
 import NavBar from "./components/navBar/NavBar.jsx";
 import Section1 from "./components/seccion1/Section1.jsx";
